@@ -13,6 +13,7 @@
 		2C2155CA1D4AECD000F26BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2155C81D4AECD000F26BC5 /* Main.storyboard */; };
 		2C2155CC1D4AECD000F26BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2155CB1D4AECD000F26BC5 /* Assets.xcassets */; };
 		2C2155CF1D4AECD000F26BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2155CD1D4AECD000F26BC5 /* LaunchScreen.storyboard */; };
+		2C2155D81D4AECE200F26BC5 /* MySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2155D71D4AECE200F26BC5 /* MySingleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2C2155CB1D4AECD000F26BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C2155CE1D4AECD000F26BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C2155D01D4AECD000F26BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2155D61D4AECE200F26BC5 /* MySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySingleton.h; sourceTree = "<group>"; };
+		2C2155D71D4AECE200F26BC5 /* MySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySingleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				2C2155CD1D4AECD000F26BC5 /* LaunchScreen.storyboard */,
 				2C2155D01D4AECD000F26BC5 /* Info.plist */,
 				2C2155BF1D4AECD000F26BC5 /* Supporting Files */,
+				2C2155D61D4AECE200F26BC5 /* MySingleton.h */,
+				2C2155D71D4AECE200F26BC5 /* MySingleton.m */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C2155C71D4AECD000F26BC5 /* ViewController.m in Sources */,
+				2C2155D81D4AECE200F26BC5 /* MySingleton.m in Sources */,
 				2C2155C41D4AECD000F26BC5 /* AppDelegate.m in Sources */,
 				2C2155C11D4AECD000F26BC5 /* main.m in Sources */,
 			);
